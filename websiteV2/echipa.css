@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Yatra+One');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+p{
+  font-size: small;
+}
+body{
+  background:  #6A040F;
+
+  align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+  margin-top: 60px;
+  text-align: center;
+}
+
+.wrapper h1{
+  font-family: 'Calibri', cursive;
+  font-size: 48px;
+  color: #FFF;
+  margin-bottom: 25px;
+}
+
+.our_team{
+  margin: auto;
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member{
+  width: 250px;
+  margin: 5px;
+  padding: 30px 10px;
+  border-radius: 30px; 
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 20px;
+  
+}
+
+.our_team .stanga {
+  width: 250px;
+  margin: 5px;
+  background: #dfcdb1;
+  box-shadow: 5px 10px #370606;  
+  padding: 30px 10px;
+  border-radius: 30px; 
+  box-shadow: -10px 10px #370606;  
+  
+}
+.our_team .centru {
+  width: 250px;
+  margin: 5px;
+  background: #dfcdb1;
+  box-shadow: 5px 10px #370606;  
+  padding: 30px 10px;
+  border-radius: 30px; 
+  box-shadow: 0px 10px #370606;  
+  
+}
+.our_team .dreapta {
+  width: 250px;
+  margin: 5px;
+  background: #dfcdb1;
+  box-shadow: 5px 10px #370606;  
+  padding: 30px 10px;
+  border-radius: 30px; 
+  box-shadow: 10px 10px #370606;  
+}
+.our_team .normal {
+  width: 250px;
+  margin: 5px;
+  background: #dfcdb1;
+  box-shadow: 5px 10px #370606;  
+  padding: 30px 10px;
+  border-radius: 30px; 
+  box-shadow: 0px 10px #370606;  
+}
+
+@media screen and (max-width: 1867px) {
+  .our_team .stanga {
+    width: 250px;
+    margin: 5px;
+    background: #dfcdb1;
+    box-shadow: 5px 10px #370606;  
+    padding: 30px 10px;
+    border-radius: 30px; 
+    box-shadow: 0px 10px #370606;  
+    
+  }
+  .our_team .centru {
+    width: 250px;
+    margin: 5px;
+    background: #dfcdb1;
+    box-shadow: 5px 10px #370606;  
+    padding: 30px 10px;
+    border-radius: 30px; 
+    box-shadow: 0px 10px #370606;  
+    
+  }
+  .our_team .dreapta {
+    width: 250px;
+    margin: 5px;
+    background: #dfcdb1;
+    box-shadow: 5px 10px #370606;  
+    padding: 30px 10px;
+    border-radius: 30px; 
+    box-shadow: 0px 10px #370606;  
+  }
+  }
+.our_team .team_member .member_img{
+  background: #dfcdb1;
+  
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.our_team .team_member .member_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.our_team .team_member h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member span{
+  font-size: 13px;
+}
+
+.our_team .team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.our_team .team_member .member_img .social_media{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: rgba(0,0,0,0.65);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+   transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img .social_media .item{
+  margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab{
+  color: 	#f1c27d;
+  font-size: 20px;
+}

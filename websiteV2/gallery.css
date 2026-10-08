@@ -1,0 +1,30 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+body {
+    background:#6A040F;
+}
+
+.gallery {
+    margin: 10px 10px;
+    background:#6A040F;
+    
+
+}
+.header{
+    background:#6A040F;
+    color: #dfcdb1;
+}
+   .gallery img {
+       
+        padding: 20px;
+        transition: 1s;
+        
+}
+.gallery img:hover {
+            transform: scale(1.1);
+}

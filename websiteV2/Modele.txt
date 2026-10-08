@@ -1,0 +1,32 @@
+https://www.infinitybolts.ro/
+https://robosava.ro/wp/
+https://qrobotics.eu/
+http://tehnoz.com/
+https://watssup.ro
+
+FTC
+https://www.firstinspires.org/robotics/ftc/what-is-first-tech-challenge
+
+
+
+ste mult mai mult decât construirea de roboți. Echipele FIRST Tech Challenge (până la 15 membri ai echipei, clasele 7-12) sunt provocate să proiecteze
+
+                Îndrumați de antrenori și mentori adulți, studenții dezvoltă abilități STEM și practică principiile ingineriei, în timp ce realizează valoarea muncii grele, a inovației și a lucrului în echipă.
+
+                Setul robot este reutilizabil de la an la an și poate fi codificat folosind o varietate de niveluri de programare bazată pe Java. Echipele proiectează și construiesc roboți, strâng fonduri, își proiectează 
+și își comercializează brandul echipei și fac parte din comunitate pentru a câștiga premii specifice  E. Participanții sunt eligibili să aplice pentru burse de studii superioare de 80 milioane USD.
+
+<div style="width:100%;height:600px;">
+        <img src="assets/webcover.jpg" style="float: none;width:100%;height:100%;object-fit:cover;">
+    </div>
+    <div class="desenare">
+        <div class="row">
+            <div class="col">MAMA E FLORAREASA</div>
+            <div class="col-2">MAMA E ACASA</div>
+        </div>
+    </div>
+  
+
+FIRST Tech Challenge este un concurs de robotică de origine americană ce anul acesta împlinește 7 ani de când se organizează la noi în țară.
+                Echipele (de până la 15 membri, clasele 7-12) sunt provocate să proiecteze, să construiască, să programeze și să opereze roboți pentru a 
+                concura într-o provocare cap la cap într-un format de alianță.

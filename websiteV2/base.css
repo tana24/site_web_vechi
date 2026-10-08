@@ -1,0 +1,258 @@
+.col-1-v1 {width: 33%;}
+.col-2-v1 {width: 66%;}
+.col-1 {width: 10%;}
+.col-2 {width: 20%;}
+.col-3 {width: 30%;}
+.col-1-v2 {width: 31%;}
+.col-2-v2 {width:31%;}
+.col-3-v2 {width: 31%;}
+.pozitie{
+  position: relative;
+}
+.inaltimeflexibila{
+  height: 850px;
+}
+
+.centered {
+  position: absolute;
+    top: 500px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 800;
+    font-size: 75;
+    width: 72%;
+    
+  }
+  .centereddown {
+    position: absolute;
+    top: 750px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 800;
+    font-size: 30 ;
+  }
+  .mySlides {display: none;}
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  .dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active {
+    background-color: #717171;
+  }
+  
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  p{
+    font-weight: 500;
+  }
+  body{
+    background-color: #6a040e;
+  }
+  .back{
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+  }
+  p1{
+    font-weight: 500;
+    color: antiquewhite;
+    font-size: x-large;
+  }
+  .h3{
+    text-align: center; 
+    line-height: 50px;
+    color: antiquewhite;
+    font-size: xx-large;
+  }
+  h3{
+    text-align: center;
+    line-height: 19px;
+    
+    text-decoration: underline;
+    
+     text-decoration-color: #370606;
+     text-decoration-thickness: 4px ;
+     
+  }
+ .p1{
+    line-height: 30px;
+    font-size: 19;
+  }
+  .xx{
+    font-size: 19.5;
+    
+  }
+  .weight{
+    font-weight: 500;
+    font-size: x-large;
+  }
+  @keyframes scroll{
+    0%{
+        transform: translateX(-200px);
+    }
+    100%{
+        transform: translatex(calc(+250px *  6));
+    }
+}
+.imagresp{
+  width: 75%;
+}
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+@media screen and (max-width: 1150px) {
+  .col-1-v1 {width: 66%;}
+  .col-2-v1 {width: 66%}
+}
+@media screen and (max-width: 1500px) {
+  .col-1-v2 {width: 100%;}
+  .col-2-v2 {width: 100%;}
+  .col-3-v2 {width: 100%;}
+}
+@media screen and (max-width: 600px) {
+  
+  .centered { 
+  position: absolute;
+  top: 600px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 800;
+  font-size: 40;
+  width: 72%;
+  }
+  .centereddown {
+    position: absolute;
+    top: 850px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 800;
+    font-size: 30 ;
+  }
+}
+@media screen and (max-width: 400px) {
+  .centered { 
+  position: absolute;
+  top: 800px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 800;
+  font-size: 25;
+  width: 72%;
+  }
+  .centereddown {
+    position: absolute;
+    top: 900px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 800;
+    font-size: 20 ;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .centered { 
+  position: absolute;
+  top: 450px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-weight: 800;
+  font-size: 90;
+  width: 72%;
+  }
+  .centereddown {
+    position: absolute;
+    top: 700px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: 800;
+    font-size: 45 ;
+  }
+}
+.left {
+    background: gray;
+    width: 75%;
+    text-align: center;
+    margin: auto;
+    border: 3px solid #69140F;
+    font-size: x-large;
+    width: 100%;
+   
+    display: flex;
+    flex-wrap: wrap;
+}
+.left2 {
+    padding-right: 50%;
+}
+.right2 {
+    padding-left: 100%;
+    position: sticky;
+    display: flex;
+    flex-wrap: wrap;
+    width: 160%;
+}
+.reset{
+   left: 10%;
+}
+
+.container3 {
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    max-width: 1100px;
+   
+}
+.footer2 {
+    background: #dfcdb1;
+    color: black;
+    font-size: x-large;
+    padding: 45px 0; /* Modifica marimea */
+    width: 166.66%;
+}
+.text{
+    background: gray;
+}
+.container4{
+    padding: 10px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #dfcdb1;
+    
+  }
+  .rowFTC {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    width: 120%;
+    margin: auto;
+}
+mic{
+    font-size: 20px;
+}
+
+  

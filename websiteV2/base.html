@@ -1,0 +1,186 @@
+<html>
+<head>
+    <title>Acasa - Echipa Broboti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.1"> 
+    <link href="nav.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet"  href="footer.css" />
+    <link rel="stylesheet"  href="base.css" />
+   
+    <meta charset="UTF-8">
+</head>
+
+    <body>
+
+      
+        <header>
+
+            <div class="container">
+
+                <img src="assets/logo.png" width="100" height="100" alt="logo" class="logo">
+
+                <nav>
+                    <ul >
+                        <li class="link"><a href="base.html">Acasă</a></li>
+                        <li class="link"><a href="echipa.html">Echipa</a></li>
+                        <li class="link"><a href="FTC.html">FTC</a></li>
+                        <li class="link"><a href="galerie.html">Galerie</a></li>
+                        <li class="link"><a href="contact.html">Contact</a></li>
+                    </ul>
+                    
+
+                </nav>
+
+            </div>
+
+        </header>
+        
+        <div class="pozitie">
+        <div style="width:100%;height:1000px;">
+         <img src="assets/coperta.jpg"  style="float: none;width:100%;height:1000px;object-fit:cover;"> 
+           
+        </div>
+      </div>
+        <div class="centered"><div class="back"> Echipa de robotică BROBOTI RO153 | 19176</div></div>
+        <div class="centereddown"><div class="back"> Colegiul Național "Ion C. Brătianu" din Pitești</div></div>
+     <br><br><br>
+        <div class="h3">
+            <h1>Cine suntem noi?</h1>
+            <p></p>
+          </div>
+          <br><br><br>
+          <div class="xx">
+          <div class="container">
+            <div class="row">
+              <div class="col-1-v2">
+                <div class="h3"> <h3>Istoric</h3></div><br>
+                <p1>Echipa noastră de robotică a fost fondată la rugămințile a doi elevi hotărâți să dea la medicină în anul 2019. De atunci a funcționat continuu în ciuda
+                  provocărilor oferite de pandemie cu închiderea școlilor. Acei 2 baieți acum sunt studenți la medicină. Chiar dacă ei știau că nu îi va ajuta
+                  în carieră, aceștia au lucrat la robotică din pasiune.
+                </p1>
+              </div>
+              <div class="col-2-v2">
+                <div class="h3"><h3>Prezent</h3></div><br>
+                <p1>În prezent echipa noastră are 2 mentori activi(un profesor de info, respectiv geografie), 14 membri oficiali și peste 20 de voluntari.
+                  Rodul muncii în echipă a adus anul acesta cele mai bune rezultate la meciurile demonstrative din istoria echipei. Acum, urmează regionala din 17 februarie.
+
+                </p1>
+              </div>
+              <div class="col-3-v2">
+                <div class="h3"><h3>Despre liceu</h3>    </div>   <br>          
+                <p1>Colegiul Naţional „Ion C. Brătianu ”, prestigioasă instituţie
+                  de învăţământ din judeţul Argeş, a luat fiinţă la 6 septembrie 1866, când în Piteşti se deschideau cursurile „celei dintâi clase gimnaziale”. Colegiul reprezintă,
+                   prin excelență, o școală românească de tradiție. Renumele de care colegiul se bucură este 
+                  rodul muncii a zeci și zeci de dascăli devotați, precum și al activității multor generații de elevi</p1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <bR>
+          
+          <div class="font">
+            <footer class="footer2">
+    
+                <div class="container4">
+                    <div class="rowFTC">
+                        <div class="col-1-v1">
+                            <mic >
+                              <div class="weight" >
+                            <p>
+                             MOTTO :  <br /> <b>  "Munca înseamnă reușită, munca în echipa înseamnă succes"</b><br>
+                            O echipă de robotică este esențială în dezvoltarea capabilitățiilor de a lucra în echipă, o calitate ”vânată” de orice angajator din ziua de astăzi
+                            </p>
+                          </div>
+                        </div>
+                        <div class="col-2-v1">
+                            <img src="assets/demovalcea.jpeg" style="border:5px solid #000000; padding: 3px; margin: 5px; " class="imagresp"}/>
+                        </div>
+                    </mic>
+                    </div>
+                </div>
+            </footer>
+        </div><br><br>
+        <div class="h3">
+          <h1>Sponsori</h1>
+
+          <div class="slideshow-container">
+
+            <div class="mySlides fade">
+         
+              <img src="assets/sponsori/topcomi.png" style="width:100%">
+    
+            </div>
+            
+            <div class="mySlides fade">
+            
+              <img src="assets/sponsori/rpa.jpg" style="width:100%">
+     
+            </div>
+            
+            
+            </div>
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span>  
+            </div>
+            <script>
+              let slideIndex = 0;
+              showSlides();
+              
+              function showSlides() {
+                let i;
+                let slides = document.getElementsByClassName("mySlides");
+                let dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                  slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                for (i = 0; i < dots.length; i++) {
+                  dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex-1].style.display = "block";  
+                dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 3000); ///timp schimbare imagine
+              }
+              </script>
+
+      <br><br>
+        <! FOOTER>
+        <div class="font">
+        <footer class="footer">
+            
+            <div class="container2">
+                <div class="row">
+                    <div class="col">
+                      <h3>Contactați-ne!</h3>
+                      <p>Str. Armand Călinescu, nr. 14,<br />Pitești, Cod poștal 110047</p>
+                      <p><br /> +40 788 421 358</p>
+                      <p><br /> brobotscontact@gmail.com</p>
+                    </div>
+                    <div class="col-2" >
+                      <h3>Acces rapid</h3>
+                      <navidown><a href="base.html">Acasă<br /></a></navidown>
+                      <navidown><a href="echipa.html">Echipa<br /></a></navidown>
+                      <navidown><a href="FTC.html">FTC<br /></a></navidown>
+                      <navidown><a href="galerie.html">Galerie<br /></a></navidown>
+                      <navidown> <a href="contact.html">Contact<br /></a></navidown>
+                    </div>
+                    <div class="col-3">
+                           <h3>Social Media</h3>
+                       <br />
+                            <a href='https://www.facebook.com/broboti.ftc'><img src="assets/facebook-logo.png" height="30" width="30" /></a>
+                            <br /><br />
+                        <a href='https://www.instagram.com/broboti_ftc/'><img src="assets/instagram-logo.png" height="30" width="30" /></a>
+                      </div>
+                </div>
+            </div>
+        </footer>
+            </div>
+           
+    </body>
+</html>
